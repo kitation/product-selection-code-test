@@ -1,0 +1,5 @@
+.item-list
+    -products.each do |product|
+        .product-item
+            =check_box_tag product.id, product.name
+            =label_tag product.id, product.name

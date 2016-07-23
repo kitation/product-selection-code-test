@@ -1,0 +1,41 @@
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    display: flex;
+    flex: 1 0 auto; 
+    flex-direction: column;
+    font-family: "Helvetica", "Arial", sans-serif
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+}
+
+.col {
+    flex: 0 0 20%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.col-1 {
+    order: -1;
+}
+
+.full-width {
+    flex: none;
+}
+
+.product-item {
+    display: block;
+}
+
+.col-header {
+    margin: 5px;
+}
+
+.button {
+    margin-left: 25%;
+}

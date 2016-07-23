@@ -1,0 +1,10 @@
+%h1
+    Confirmation Page
+%p
+    You are customer
+    =@basket.customer_id
+    and you ordered
+    %ul#product-list
+        -@basket.products.each do |product|
+            %li
+                =product.name

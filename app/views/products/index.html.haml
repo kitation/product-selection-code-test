@@ -1,0 +1,21 @@
+.header.full-width
+    %img{src:"http://placehold.it/800x50"}
+.container
+    .col-1.col
+        .col-header
+            Sports
+        .items#sports
+    .col-2.col
+        .col-header
+            News
+        .items#news
+            =render partial: 'item_list', locals: { products: @products }
+    .col-3.col
+        .col-header
+            Basket
+        .items#basket
+        =form_tag(baskets_path, method: :post) do
+            =hidden_field_tag :customer_id
+            %input{:type => "submit", :value => "Checkout", :class => "button"}
+.footer.full-width
+    %img{src:"http://placehold.it/800x50"}
