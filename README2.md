@@ -1,6 +1,6 @@
 # README
 
-This project is using Rails 5 and Ruby 2.2.2, it assumes you have Ruby 2.2.2 installed.
+This project is using Rails 5! and Ruby 2.2.2, it assumes you have Ruby 2.2.2 installed.
 
 ## Setup
 
